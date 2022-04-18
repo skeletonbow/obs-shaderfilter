@@ -603,7 +603,7 @@ static void shader_filter_update(void *data, obs_data_t *settings)
 		case GS_SHADER_PARAM_VEC4: // Assumed to be a color.
 			if (gs_effect_get_default_val(param->param) != NULL)
 			{
-				obs_data_set_default_int(settings, param_name, *(unsigned int *)gs_effect_get_default_val(param->param));
+				obs_data_set_default_float(settings, param_name, *(float *)gs_effect_get_default_val(param->param));
 			}
 			else
 			{
@@ -768,7 +768,7 @@ static void shader_filter_render(void *data, gs_effect_t *effect)
 				gs_effect_set_int(param->param, (int)param->value.i);
 				break;
 			case GS_SHADER_PARAM_VEC4:
-				vec4_from_rgba(&color, (unsigned int)param->value.i);
+				vec4_from_rgba(&color, (float)param->value.f);
 				gs_effect_set_vec4(param->param, &color);
 				break;
 			case GS_SHADER_PARAM_TEXTURE:
