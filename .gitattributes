@@ -1,0 +1,6 @@
+# Documentation:  https://github.com/github/linguist/blob/master/docs/overrides.md
+*.shader linguist-language=HLSL
+*.effect linguist-language=HLSL
+*.inc linguist-language=HLSL
+# Auto detect text files and perform LF normalization
+* text=auto
