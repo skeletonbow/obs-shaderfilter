@@ -194,10 +194,4 @@ described above.
 
 ## License
 
-This project is licensed under the "[Unlicense](http://unlicense.org/)", because copy[right|left] is a hideous
-mess to deal with and I don't like it. 
-
-## Donations
-
-I appreciate donations/follows/subs on twitch.tv/surn , [Bitcoin](bitcoin:3HAN6eVxv81URgj51wxeCd9eMhg3tvriro) or [LiteCoin](litecoin:MQFVTFCZUtcucZJzQCyiSDTirrWGqTyCjM).
-Why Crypto? We do not have free speech when we live in fear of everything being taken away on an authoritarian whim, a criminal plot or an outraged mob?
+This project is licensed under the "GNU General Public License version 2.0".
