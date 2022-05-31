@@ -2,5 +2,6 @@
 *.shader linguist-language=HLSL
 *.effect linguist-language=HLSL
 *.inc linguist-language=HLSL
+*.iss InnoSetup
 # Auto detect text files and perform LF normalization
 * text=auto
