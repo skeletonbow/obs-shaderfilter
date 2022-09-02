@@ -1,6 +1,4 @@
-# obs-shaderfilter 1.21
-
-## OBS Shaderfilter 2.x project
+# OBS Shaderfilter 2.x project
 This Shaderfilter project is currently in the early stages of development.  Currently it is only intended for developers at this time, and must
 be built from the source code manually.  It is not usable by end users at the moment.
 
